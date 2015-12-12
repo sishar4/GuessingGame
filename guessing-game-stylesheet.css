@@ -1,1 +1,116 @@
 /* This is the CSS stylesheet */
+#header {
+	margin-bottom: 10px;
+	height: 150px;
+	width: 100%;
+}
+
+#header img {
+	margin-left: 350px;
+	margin-top: -25px;
+}
+
+#gameTitle {
+	background-color: #cc0000;
+	padding: 5px;
+	color: white;
+	text-align: center;
+	font-family: Arial;
+	font-size: 36px;
+}
+
+#rules {
+	position: relative;
+	margin: 10px 0px 30px 0px;
+	float: left;
+	height: 250px;
+	width: 35%;
+}
+
+#game {
+	position: relative;
+	margin: 10px 0px 30px 0px;
+	float: right;
+	height: 350px;
+	width: 60%;
+}
+
+#numberTF {
+	position: relative;
+	display: block;
+	margin: auto;
+	height: 30px;
+	width: 30%;
+}
+.button {
+	position: relative;
+	margin: auto;
+	margin-top: 20px;
+	padding-top: 5px;
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+	border-radius: 5px;
+}
+
+#submitBtn {
+	display: block;
+	height: 50px;
+	width: 30%;
+	background-color: blue;
+}
+
+#extraButtonsContainer {
+	position: relative;
+	height: 50px;
+	width: 100%;
+}
+
+#extraButtons {
+	position: relative;
+	margin: auto;
+	height: 50px;
+	width: 40%;
+}
+
+#hintBtn {
+	height: 50px;
+	width: 40%;
+	float: left;
+	background-color: #cc0000;
+}
+
+#playAgainBtn {
+	height: 50px;
+	width: 60%;
+	float: right;
+	background-color: #cc0000;
+}
+
+.titles {
+	text-align: center;
+	font-family: Arial;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+#ruleSection {
+	font-family: Arial;
+	font-size: 20px;
+	font-style: italic;
+}
+
+#footer {
+	position: relative;
+	clear: both;
+	height: 80px;
+	width: 100%;
+	background-color: black;
+}
+
+#footer h4 {
+	padding: 30px;
+	color: white;
+	font-family: Arial;
+}

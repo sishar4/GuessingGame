@@ -1,4 +1,45 @@
 <!DOCTYPE html>
 <html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="guessing-game-stylesheet.css" />
+		<title>Guessing Game</title>
+	</head>
 
+	<body>
+		<div id="header">
+			<img src="http://preview.fullstackacademy.com/images/fa-logo@2x.png" />
+		</div>
+
+		<h1 id="gameTitle">Guessing Game</h1>
+
+		<div id="rules">
+			<p class="titles"><em>Rules</em></p>
+
+			<ol id="ruleSection">
+				<li>Select a Number between 1 and 100.</li>
+				<li>If you guess the correct Number, you win!</li>
+				<li>If you are wrong, the game gives you feedback whether you were close or not.</li>
+				<li>You have 5 guesses.</li>
+			</ol>
+		</div>
+		
+		<div id="game">
+			<p class="titles">Guess The Number</p>
+
+			<input type="text" id="numberTF">
+			<input type="submit" value="Submit Your Guess" class="button" id="submitBtn">
+
+			<div id="extraButtonsContainer">
+				<div id="extraButtons">
+					<input type="submit" value="Hint" class="button" id="hintBtn">
+					<input type="submit" value="Play Again" class="button" id="playAgainBtn">
+				</div>
+			</div>
+			
+		</div>
+
+		<div id="footer">
+			<h4>Developed by Sahil Ishar, a cool guy.</h4>
+		</div>
+	</body>
 </html>
